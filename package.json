@@ -1,0 +1,17 @@
+{
+  "name": "basic-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/module/product.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
